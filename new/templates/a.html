@@ -1,0 +1,51 @@
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love is in the Air</title>
+    <link rel="stylesheet"href="{% static 'css/a.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            background-image:url("static/images/b.jpg")
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .love-symbol {
+            font-size: 50px;
+            color: #ff4d4d;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="content">
+        <h1>LOVE YOU AMALU.....<span class="love-symbol">&#9825;</span></h1>
+        <p>With love, every moment is magical. <span class="love-symbol">&#9825;</span></p>
+        <p>Your presence fills my heart with joy. <span class="love-symbol">&#9825;</span></p>
+        <p>Together, we create beautiful memories. <span class="love-symbol">&#9825;</span></p>
+        <p>Love is the greatest gift . <span class="love-symbol">&#9825;</span></p>
+        <p>You are my sunshine on a rainy day. <span class="love-symbol">&#9825;</span></p>
+        <p>MISS YOU HUBBY<span class="love-symbol">&#9825;</span></p>
+    </div>
+</body>
+{% block content %}
+{% endblock %}
